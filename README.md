@@ -19,6 +19,12 @@ This project is a practice exercise to improve my C++ skills. The program prompt
 
 ---
 
+## Currently Working On: v2.1
+
+- Improving and debugging input validation
+
+---
+
 ## How to Use
 
 1. Clone the repository:
@@ -60,8 +66,6 @@ This project helped me practice:
 - Use arrays or structs for better data handling
 
 - Add error handling and input retries
-
-- Create a GUI version
 
 ---
 
