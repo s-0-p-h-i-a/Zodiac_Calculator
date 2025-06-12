@@ -6,8 +6,7 @@
 ## 📝 Description
 Major internal refactor focused on improving modularity and simulating the use of functions, arrays, and structures — while staying within the scope of my current C++ knowledge (no functions, arrays, or `cin.fail()` yet). v2.0 aims to lay conceptual groundwork for more abstract, maintainable code while retaining the core logic of earlier versions.
 
-> * `*` = ChatGPT suggestion  
-> * `^` = Partially addressed item
+> * `^` = ChatGPT suggestion  
 
 ---
 ## ✨ Features
@@ -47,6 +46,33 @@ Major internal refactor focused on improving modularity and simulating the use o
   - Scoped variable declarations close to point of use
   - Replaced repeated string assignment with integer-mapped `switch` branches
   - Applied formatting and output consistency across all branches
+
+---
+
+## ✅ Changes from v1.1
+
+- ✔ Replaced nested day checks with single validation block
+- ✔ Mapped strings (`sign`, `element`, `modality`) from numerical values
+- ✔ Added comments and structural separators for readability
+- ✔ Improved variable scope and reduced clutter
+- ✔ Optimised input validation logic
+- ^ Consider converting all `int x(0)` declarations to `int x = 0` format for consistency
+
+---
+
+## 🛠️ Next Steps
+
+- Review edge cases in day/month validation logic
+- Prep for refactoring with arrays/enums/structs once learned
+- Modularise with functions once scope and parameter logic is introduced
+
+---
+
+## 📎 Notes
+
+- This version is an intentional transition point — combining full manual logic with abstracted representations for easier migration to more advanced C++ concepts.
+- Code structure now more clearly reflects the three phases: **input → computation → output**.
+- Naming updated to v2.0 to reflect the shift toward abstraction.
 
 ---
 
@@ -108,34 +134,6 @@ switch (elementNumber) {
   case 4: element = "Water"; break;
 }
 ```
-
----
-
-## ✅ Changes from v1.1
-
-- ✔ Replaced nested day checks with single validation block
-- ✔ Mapped strings (`sign`, `element`, `modality`) from numerical values
-- ✔ Added comments and structural separators for readability
-- ✔ Improved variable scope and reduced clutter
-- ^ Addressed logic duplication from earlier version where input triggered “invalid month” message: now both errors are shown. 
-- * Consider converting all `int x(0)` declarations to `int x = 0` format for consistency
-
----
-
-## 🛠️ Next Steps
-
-- Review edge cases in day/month validation logic
-- Prep for refactoring with arrays/enums/structs once learned
-- Modularise with functions once scope and parameter logic is introduced
-
----
-
-## 📎 Notes
-
-- This version is an intentional transition point — combining full manual logic with abstracted representations for easier migration to more advanced C++ concepts.
-- Code structure now more clearly reflects the three phases: **input → computation → output**.
-- Naming updated to v2.0 to reflect the shift toward abstraction.
-
 ---
 
 > ✍️ This dev log was drafted using my raw development notes and code, with AI-assisted formatting and polish. All content was reviewed for accuracy.  
