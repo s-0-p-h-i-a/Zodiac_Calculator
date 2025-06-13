@@ -65,10 +65,11 @@ int main() {
 	
 	// Define flags for day input validation
 	int monthEnd;
-		switch (month) {
-			case 2: monthEnd = 29; break;
-			case 4: case 6: case 9: case 11: monthEnd = 30; break;
-			default: monthEnd = 31;} 
+	if (validInput) {	
+			switch (month) {
+				case 2: monthEnd = 29; break;
+				case 4: case 6: case 9: case 11: monthEnd = 30; break;
+				default: monthEnd = 31;} }
 	
 	// Day
 	if (validInput) {
