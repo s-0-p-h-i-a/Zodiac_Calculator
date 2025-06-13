@@ -29,15 +29,15 @@ This project is a practice exercise to improve my C++ skills. The program prompt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/zodiac-calculator.git
+   git clone https://github.com/s-0-p-h-i-a/zodiac-calculator.git
 
-2. Compile the code using a C++ compiler:
+2. Choose a version then compile the code using a C++ compiler:
     ```bash
-   g++ zodiac_calculator.cpp -o zodiac_calculator
+   g++ zodiac_v2_1.cc -o zodiac_v2_1
 
 4. Run the program:
       ```bash
-    ./zodiac_calculator
+    ./zodiac_v2_1
 
 5. Follow the on-screen prompts to enter your birth date.
 
