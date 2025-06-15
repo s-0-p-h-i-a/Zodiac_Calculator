@@ -29,7 +29,7 @@ This project is a practice exercise to improve my C++ skills. The program prompt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/s-0-p-h-i-a/zodiac-calculator.git
+   git clone https://github.com/s-0-p-h-i-a/Zodiac_Calculator.git
 
 2. Choose a version then compile the code using a C++ compiler:
     ```bash
