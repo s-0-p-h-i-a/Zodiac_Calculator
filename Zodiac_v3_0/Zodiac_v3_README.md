@@ -6,7 +6,6 @@
 This version introduces **functions** for calculation and string mapping, plus **loop-based input validation**. It represents the program’s transition from a single-block `main()` into a modular structure.
 
 ---
-
 ## 🔍 Overview
 
 The user inputs their **birth day and month**, and the program returns:
@@ -18,7 +17,6 @@ The user inputs their **birth day and month**, and the program returns:
 The program now uses functions for both numeric calculations and string conversions, making the main logic easier to follow/maintain and reducing repeated logic.
 
 ---
-
 ## 🧱 Features
 
 - Input validation with **do/while loops** until valid values are entered
@@ -36,7 +34,6 @@ The program now uses functions for both numeric calculations and string conversi
     
 
 ------
-
 ## 🔁 v2.1 → v3.0 Trajectory
 
 This version is about **refactoring into functions** and improving input handling.
@@ -54,23 +51,16 @@ This version is about **refactoring into functions** and improving input handlin
 This version focused on:
 
 - Practicing **function creation and use**
-    
 - Recognising natural module boundaries in existing code
-    
 - Understanding how to reduce complexity in `main()`
-    
 - Building confidence in structuring C++ programs beyond a single block
 
 ---
-
 ## 🚧 Limitations & Future Work
 
 - Still no leap year validation
-    
 - Input still limited to integer values (`cin.fail()` handling not yet applied)
-    
 - Switches and if/else remain verbose — arrays will be a better fit in future
-    
 - Sign calculation logic works but could be simplified further with data structures
 
 ---
@@ -81,11 +71,27 @@ This version focused on:
 - Continue testing new sign calculation logic against edge cases
 
 ---
-
 ## 🗃️ Files
 
 - `zodiac_v3.cc`: Source code for version 3.0
     
 - `devlog_v3.md`: Development log for function refactor and validation changes
 
+------
+## 📘 About This Project
+
+This is the **fifth version** of a beginner-friendly C++ console project. Each iteration refines structure while keeping functionality familiar, layering new programming concepts (validation, functions, arrays, etc.) one step at a time.
+
 ---
+## 🧠 Documentation Workflow & AI Assistance
+
+All documentation in this project (README, dev logs, and code comments) is based on original notes written manually during development.
+
+To improve clarity and consistency, AI tools are used to:
+
+- Draft new READMEs from raw notes
+- Generate dev logs tracing reasoning and changes
+- Condense raw notes into concise in-code comment blocks
+
+**All generated documentation is manually reviewed and edited.**  
+This workflow prioritises **clarity**, **traceability**, and **ownership**.
