@@ -19,12 +19,6 @@ This project is a practice exercise to improve my C++ skills. The program prompt
 
 ---
 
-## Currently Working On: v2.1
-
-- Improving and debugging input validation
-
----
-
 ## How to Use
 
 1. Clone the repository:
@@ -55,17 +49,17 @@ This project helped me practice:
 
 - Code organization and readability
 
-- Preparing for more advanced features like arrays and functions
+- Modularization with functions
+
+- Preparing for more advanced features like arrays and structs
 
 ---
 
 ## Future Improvements
 
-- Modularize code with functions
+- Introduce arrays or structs for cleaner data handling
 
-- Use arrays or structs for better data handling
-
-- Add error handling and input retries
+- Add error handling with cin.fail() for invalid input types
 
 ---
 
